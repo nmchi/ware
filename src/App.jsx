@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import HeroSection from "./components/HeroSection";
 import Pricing from "./components/Pricing";
 import Services from "./components/Services";
+import Roadmap from "./components/Roadmap";
+import Footer from "./components/Footer";
 
 const App = () => {
     return (
@@ -16,6 +18,8 @@ const App = () => {
                 <Collaboration />
                 <Services />
                 <Pricing />
+                <Roadmap />
+                <Footer />
             </div>
             <ButtonGradient />
         </>
